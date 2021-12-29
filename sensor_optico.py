@@ -9,7 +9,7 @@ class sensor_optico:
 
 	def __generar_reporte(self, nombre_reporte, dict_objeto):
 		#Guardar reporte en la carpeta sensor_optico/out
-		with open(os.path.join('sensor_optico/out', nombre_reporte), 'w') as f:
+		with open(os.path.join('out', nombre_reporte), 'w') as f:
 			for key, value in dict_objeto.items():
 				f.write('%s: %s\n' % (key, value))
 
