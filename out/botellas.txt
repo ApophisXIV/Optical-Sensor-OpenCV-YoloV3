@@ -1,0 +1,5 @@
+azul: 12
+negro: 8
+rojo: 13
+amarillo: 9
+verde: 12
