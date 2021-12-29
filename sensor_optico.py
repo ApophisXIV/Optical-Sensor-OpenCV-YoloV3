@@ -15,6 +15,8 @@ class sensor_optico:
 
 	def sensor_leer(self, mostrar_imagen=False, duracion=250):
 
+		# Los archivos de configuracion del modulo de deteccion de objetos
+		# son provistos por el usuario
 		detect_o = d_o("coco.names", "yolov3.weights", "yolov3.cfg")
 		detect_c = d_c(carpeta_imagenes=self._carpeta_imagenes_lote)
 
